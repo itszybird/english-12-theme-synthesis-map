@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Graph Notes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <!-- LEFT: Obsidian-style graph -->
+    <section class="graph-panel">
+      <svg id="graph"></svg>
+      <div class="graph-hint">Drag nodes · Scroll to zoom · Click a node</div>
+    </section>
+
+    <!-- RIGHT: note page -->
+    <section class="note-panel">
+      <div class="note-label">Node</div>
+      <div id="note-title" class="note-title">Static Equilibrium</div>
+      <div id="note-meta" class="note-meta">Node id: static-equil</div>
+
+      <div id="note-body" class="note-body">
+        Click a node to load its note.
+      </div>
+
+      <!-- 🔒 Transparent overlay that disables text selection -->
+      <div class="note-overlay"></div>
+    </section>
+  </div>
+
+  <!-- D3.js -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
