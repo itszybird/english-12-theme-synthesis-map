@@ -35,6 +35,9 @@ const nodes = [
         A <b>common</b> theme between Stellar Young's “I’m not your inspiration” and Sandy Ho’s “Canfei to Canji” is that people often misunderstand information, because society/social media makes assumptions about them instead of listening to or watching their real experiences. Through both the video and text, they expressively focus on disabled people being put into narrow roles to become so-called “inspirations” and completely ignore their individual identities. Young talks about how the world limits disabled people as “inspiration porn” and ignores the reality of their lives. Similarly, Ho's experiences of cultural stigma and silence create incorrect assumptions about disabled people’s worth. Combined, the video and the text highlight how powerful society’s labels or more present “social media,” can be in harming how others make decisions and the skills of critical thinking. From comparing the two, we can gain a better understanding of how assumptions shape the way disabled people are treated. Ultimately, both authors argue that to understand something is to listen to the official source rather than present social media.
         
         <i>Move left or right!</i>
+
+        <i>Can't find Reflection?, try zooming out</i>
+        <i>Hint: the End node BIG</i>
         `        
     ]
     },
@@ -126,6 +129,9 @@ const nodes = [
         Overall, learning about this theme helped guide me to understand that the power of assumptions from only viewing the surface of identity can hugely affect society’s opinions. Both Young and Ho showed explicit content about disabled people, and they stated that people often think they understand disability without ever experiencing it or listening to someone with a disability. I myself have experienced being disabled, but in the form of having a younger brother. Though from this experience I can confirm that both authors are correct. When people with disabilities do normal tasks, it should not be a congratulatory accomplishment, but rather a basic human task. Although they require tools, they still manage to do daily tasks effortlessly in different ways (such as my younger brother using hearing aids). Looking towards the future, I am more confident when approaching people with disabilities through thinking, watching, and listening. Finally, of all wisdom achieved, I learned that to understand someone or something, it is essential to find official sources or do research upon discovery, before believing. Nothing on social media is completely true, which is why no one should make assumptions at first sight.
         
         <i>Thats it! THANK YOU! 😀</i>
+        
+        Nice meeting you Mr. McCullough!
+        Hope to see you again! 👏
         `
     ]
     }
