@@ -5,10 +5,10 @@ const nodes = [
     title: ".   Intro",
     note: [
         `<h2>Howdy hey!</h2>
-        Im used Canva too many times so I decided to code my own graphical website for my synthesis project.
         This is a graphical website I coded to display the synthesis, because I couldn’t think of any other way to use my time IDK, ok but like it took me almost 6 hours to program this from ground up using Html, CSS, and JavaScript.
+        I used Canva too many times so I decided to code my own graphical website for my synthesis project.
 
-        To navigate this site, it's simple:
+        <b>To navigate this site, it's simple:</b>
         • All you need to do is follow the lines connected in the map.
         • After reading the theme, choose either left or right.
         • Click on the circles to read the notes.
@@ -48,7 +48,7 @@ const nodes = [
     note: [
         `<a href="https://youtu.be/8K9Gg164Bsw?si=_9-3pv6N817togmo&t=287" target="_blank">“They were just kind of congratulating me for managing to get up in the morning and remember my own name.” - Stella Young</a>
 
-        Young talks about getting <b>congratulated</b> for “managing to get up in the morning and remember [her] own name” (Young, Link). This quote shows how society/social media assumes about disabled people instead of actually understanding their identities. Young explains that teachers or students praise her for doing very simple human tasks, though, revealing that society’s expectations are underrated. Assumptions like these come from an ideology that disabled people are meant to struggle continuously, even to accomplish simple tasks, such as waking up. This links to the theme because people would see only her physical body, rather than her identities and experiences. This results in society deciding her value for her. Young uses this example to emphasize how deeply misunderstanding shapes how people form opinions.
+        Young talks about getting <b>congratulated</b> for “managing to get up in the morning and remember [her] own name” (Young, Link). This quote shows how society/social media assumes about disabled people instead of actually understanding their identities. Young explains that teachers or students praise her for doing very simple human tasks, though, revealing that society’s expectations are underrated. Assumptions like these come from an ideology that disabled people are meant to struggle continuously, even to accomplish simple tasks, such as waking up. This links to the theme because people would see only her physical body, rather than her identities and experiences. This results in society deciding her value for her or putting all disabilities within the same person. Young uses this example to emphasize how deeply misunderstanding shapes how people form opinions.
         
         <i>Move right!</i>
         `        
@@ -88,6 +88,8 @@ const nodes = [
         `<b>“Taking up space as a disabled person is always revolutionary” - Sandy Ho</b>
 
         <b>As a disabled person,</b> most of society will see you “Taking up space as a disabled person [being] always revolutionary” (Ho, 4). This quote expresses how just being a disabled person in the current world challenges society’s assumptions. Ho explains how many disabled people are expected to be silent, hidden, or grateful, but if they choose to take up space in communities and society, the barrier of misunderstandings will contract. This connects to the theme since if one steps up and becomes heard by others, this interrupts the unbalanced society’s assumptions and forces people to view real-life experiences. Ho creates this idea to express that disabled people deserve to be visible and understood to be treated as part of basic humanity and not assumed by social contradictions.
+        
+        <i>Picture Above!</i>
         `        
     ]
     },
@@ -96,11 +98,12 @@ const nodes = [
     id: "Stella Young picture",
     title: ".   Stella Young picture",
     note: [
-        `<b>“Taking up space as a disabled person is always revolutionary” - Sandy Ho</b>
+        `<p align="center"><b>Picture of Social Media Platforms:</b>
 
-        <img src="stella.png" style="width: 300px; border-radius: 12px; margin-bottom: 12px;">
-
-
+            <img src="stella.png" style="width: 400px; border-radius: 12px; margin-bottom: 12px;">
+            <img src="social.jpg" style="width: 400px; border-radius: 12px; margin-bottom: 12px;">
+        </p>
+        The picture I chosen are citircal towards the Stella Young’s quotes because it displays the massive platform social media has grown (like youtube, meta, and spotify as well!) and how quickly society form ideas of either false or true information. As in the picture we see a boy stuck doom scrolling on his phone and how many promotives advertisements there are. Just like how Stella explains, people assume others based on only first sight of image instead of looking through the information.
 
         `        
     ]
@@ -110,10 +113,10 @@ const nodes = [
     id: "Sandy Ho picture",
     title: ".   Sandy Ho picture",
     note: [
-        `<b>“Taking up space as a disabled person is always revolutionary” - Sandy Ho</b>
+        `<p align="center"><b>The diversity of countries:</b>
 
-        <img src="stella.png" style="width: 300px; border-radius: 12px; margin-bottom: 12px;">
-
+            <img src="sandy.jpg" style="width: 400px; border-radius: 12px; margin-bottom: 12px;">
+        </p>
         
 
         `        
@@ -148,7 +151,7 @@ const links = [
     { source: "Stella Young picture", target: "Stella Young quote 1" },
     { source: "Sandy Ho picture", target: "Sandy Ho quote 2" },
     { source: "Sandy Ho picture", target: "Sandy Ho quote 1" },
-    { source: "End", target: "End" }
+    { source: "End", target: "Theme Statement" }
     
 ];
 
@@ -174,8 +177,8 @@ const node = nodeGroup
     .data(nodes)
     .join("circle")
     .attr("class", "node-circle")
-    .attr("r", 9)
-    .attr("r", d => d.id === "End" ? 300 : 9)
+    .attr("r", 40)
+    .attr("r", d => d.id === "End" ? 100 : 20)
     .on("click", (_, d) => selectNode(d))
     .call(
     d3.drag()
@@ -261,9 +264,8 @@ noteBody.addEventListener("selectstart", (e) => {
   e.preventDefault();
 });
 
-noteBody.addEventListener("mousedown", () => {
-  const sel = window.getSelection();
-  if (sel && sel.rangeCount > 0) {
-    sel.removeAllRanges();
-  }
+document.addEventListener("selectstart", e => e.preventDefault());
+document.addEventListener("mousedown", () => {
+    const sel = window.getSelection();
+    if (sel && sel.rangeCount) sel.removeAllRanges();
 });
