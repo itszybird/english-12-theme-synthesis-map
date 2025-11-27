@@ -34,8 +34,8 @@ const nodes = [
     note: [
         `<b>The Problem of Misunderstanding information</b>
 
-        A <b>common theme</b> between Stellar Young's <i>“I’m not your inspiration”</i> and Sandy Ho’s <i>“Canfei to Canji”</i> is that people often misunderstand information, because society/social media makes assumptions about them instead of listening to or watching their real experiences. Through both the video and text, they expressively focus on disabled people being put into narrow roles to become so-called “inspirations” and completely ignore their individual identities. Young talks about how the world limits disabled people as “inspiration porn” and ignores the reality of their lives. Similarly, Ho's experiences of cultural stigma and silence create incorrect assumptions about disabled people’s worth. Combined, the video and the text highlight how powerful society’s labels or more present “social media,” can be in harming how others make decisions and the skills of critical thinking. By comparing the two, we can gain a better understanding of how assumptions shape the way people with disabilities are treated. Ultimately, both authors argue that to understand something is to listen to the official source rather than present social media.
-        
+        A <b>common theme</b> between Stellar Young's <i>“I’m not your inspiration”</i> and Sandy Ho’s <i>“Canfei to Canji”</i> is that people often misunderstand information because society/social media makes assumptions about them instead of listening to or watching their real experiences. Through both the video and text, they expressively focus on disabled people being put into narrow roles to become so-called “inspirations” and completely ignore their individual identities. Young talks about how the world limits disabled people as “inspiration porn” and ignores the reality of their lives. Similarly, Ho's experiences of cultural stigma and silence create incorrect assumptions about disabled people’s worth. Combined, the video and the text highlight how powerful society labels or more present “social media” can be in harming how others make decisions and the skills of critical thinking. By comparing the two, we can gain a better understanding of how assumptions shape the way people with disabilities are treated. Ultimately, both authors argue that to understand something is to listen to the official source rather than present social media. 
+
         <i>Move left or right!</i>
 
         <i>Move down to find the reflection</i>
@@ -50,8 +50,8 @@ const nodes = [
     note: [
         `<a href="https://youtu.be/8K9Gg164Bsw?si=_9-3pv6N817togmo&t=287" target="_blank">“They were just kind of congratulating me for managing to get up in the morning and remember my own name.” - Stella Young</a>
 
-        Young talks about getting <b>congratulated</b> for “managing to get up in the morning and remember [her] own name” (Young, Link). This quote shows how society/social media assumes about disabled people instead of actually understanding their identities. Young explains that teachers or students praise her for doing very simple human tasks, though, revealing that society’s expectations are underrated. Assumptions like these come from an ideology that disabled people are meant to struggle continuously, even to accomplish simple tasks, such as waking up. This links to the theme because people would see only her physical body, rather than her identities and experiences. This results in society deciding her value for her or putting all disabilities within the same person. Young uses this example to emphasize how deeply misunderstanding shapes how people form opinions.
-        
+        Young talks about getting <b>congratulated</b> for “managing to get up in the morning and remember [her] own name” (Young, Link). This quote shows how society/social media assumes about disabled people instead of understanding their identities. Young explains that teachers or students praise her for doing simple human tasks, which reveals that society’s expectations are underrated. Assumptions like these come from an ideology that disabled people are meant to struggle continuously, even to accomplish simple tasks, such as waking up. This links to the theme because people would see only her physical body, rather than her identity and experiences. This results in society deciding her value for her or putting all disabilities within the same person. Young uses this example to emphasize how deeply misunderstanding shapes how people form opinions. 
+
         <i>Move right!</i>
         `        
     ]
@@ -63,8 +63,8 @@ const nodes = [
     note: [
         `<b>“The Chinese Language shaped the perceptions of disability… wasn’t until the 1990s… canfei (useless) to canji (sickness or illness)” - Sandy Ho</b>
 
-        <b>Towards</b> More Cultural Aspects, Ho explains how “The Chinese Language shaped the perceptions of disability… wasn’t until the 1990s… canfei (useless) to canji (sickness or illness)”(Ho, 3). This quote shows how cultural languages shape assumptions about disabled people before they even speak. Especially when disability is linked to negative words, society shifts to believing it is truly a sin to be disabled. Ho’s own experiences show that these inherited ideologies influence families and communities, learning that disability should be avoided and feared. This links to the theme because it emphasizes how misunderstanding is also created through languages and cultural aspects, not from disabled people themselves. Society makes assumptions from cultural words rather than experiences. Ho argues that this shows how harmful language and words are towards not only disabled people, but also for many people in communities.
-        
+        Towards More <b>Cultural Aspects</b>, Ho explains how “The Chinese Language shaped the perceptions of disability… wasn’t until the 1990s… canfei (useless) to canji (sickness or illness)” (Ho, 3). This quote shows how cultural languages shape assumptions about disabled people before they even speak. Especially when disability is linked to negative words, society shifts to believing it is truly a sin to be disabled. Ho’s own experiences show that these inherited ideologies influence families and communities, learning that disability should be avoided and feared. This links to the theme because it emphasizes how misunderstanding is also created through languages and cultural aspects, not from disabled people themselves. Society makes assumptions from cultural words rather than experiences. Ho argues that this shows how harmful language and words are towards not only disabled people, but also for many people in communities. 
+
         <i>Move left!</i>
         `        
     ]
@@ -76,8 +76,8 @@ const nodes = [
     note: [
         `<a href="https://youtu.be/8K9Gg164Bsw?si=_fR6Lel9vu9yaclU&t=170" target="_blank">“We've been sold the lie that disability is a Bad Thing, capital B, capital T. It's a bad thing, and to live with a disability makes you exceptional. It's not a bad thing, and it doesn't make you exceptional. And in the past few years, we've been able to propagate this lie even further via social media.” - Stella Young</a>
 
-        Young here explains that “we’ve been <b>sold the lie</b> that disability is a Bad Thing… It’s not a bad thing, and it doesn’t make you exceptional… even further via social media” (Young, Link). This segment challenges the stereotype that disabled people must be “exceptional” simply for even existing. Society creates assumptions that disability must automatically mean brokenness, weakness, tragedy, or a way of inspiration and ignores the real variety and complexity in disabled people’s identities. Instead of listening to true information, society/social media such as Instagram puts disabled people into motivational inspiration for others, and it's usually misunderstood by many people. This supports the theme because it proves how, not just for the disabled, but for many other factors, people rely on stereotypical information rather than real stories and experiences. Young emphasizes that social media and the world’s mindset strip disabled people of their identities as humans.
-        
+        Young here explains that “we’ve been <b>sold the lie</b> that disability is a Bad Thing… It’s not a bad thing, and it doesn’t make you exceptional… even further via social media” (Young, Link). This segment challenges the stereotype that disabled people must be “exceptional” simply for even existing. Society creates assumptions that disability must automatically mean brokenness, weakness, tragedy, or a way of inspiration and ignores the real variety and complexity in disabled people’s identities. Instead of listening to true information, society/social media such as Instagram puts disabled people into motivational inspiration for others, and it is usually misunderstood by many people. This supports the theme because it proves how, not just for the disabled, but for many other factors, people rely on stereotypical information rather than real stories and experiences. Young emphasizes that social media and the world’s mindset strip disabled people of their identities as humans. 
+
         <i>Picture Below!</i>
         `        
     ]
@@ -89,8 +89,8 @@ const nodes = [
     note: [
         `<b>“Taking up space as a disabled person is always revolutionary” - Sandy Ho</b>
 
-        <b>As a disabled person,</b> most of society will see you “Taking up space as a disabled person [being] always revolutionary” (Ho, 4). This quote expresses how just being a disabled person in the current world challenges society’s assumptions. Ho explains how many disabled people are expected to be silent, hidden, or grateful, but if they choose to take up space in communities and society, the barrier of misunderstandings will contract. This connects to the theme since if one steps up and becomes heard by others, this interrupts the unbalanced society’s assumptions and forces people to view real-life experiences. Ho creates this idea to express that disabled people deserve to be visible and understood to be treated as part of basic humanity and not assumed by social contradictions.
-        
+        As a disabled person, most of society will see you “<b>Taking up space</b> as a disabled person [being] always revolutionary” (Ho, 4). This quote expresses how just being a disabled person in the current world challenges society’s assumptions. Ho explains how many disabled people are expected to be silent, hidden, or grateful, but if they choose to take up space in communities and society, the barrier of misunderstandings will contract. This connects to the theme since if one steps up and becomes heard by others, this interrupts the unbalanced society’s assumptions and forces people to view real-life experiences. Ho creates this idea to express that disabled people deserve to be visible and understood to be treated as part of basic humanity and not assumed by social contradictions.
+
         <i>Picture Above!</i>
         `        
     ]
@@ -98,14 +98,14 @@ const nodes = [
 
     {
     id: "Stella Young picture",
-    title: ".   Stella Young picture",
+    title: ".   Stella Young | Pictures",
     note: [
-        `<p align="center"><b>Picture of Social Media Platforms:</b>
+        `<p align="center"><b>Social Media Platforms and Influences:</b>
 
             <img src="stella.png" style="width: 400px; border-radius: 12px; margin-bottom: 12px;">
             <img src="social.jpg" style="width: 400px; border-radius: 12px; margin-bottom: 12px;">
         </p>
-        The picture I chose is critical towards Stella Young’s quotes because it displays the massive platforms social media has grown (like YouTube, Meta, and Spotify as well!) and how quickly society forms ideas of either false or true information. As in the picture, we see a boy stuck doom scrolling on his phone and how many promotional advertisements there are. Just like how Stella explains, these types of ADs lower the attention span of the average person while they assume others based on only a first impression of the image instead of looking through the information.
+        The picture I chose is critical towards Stella Young’s quotes because it displays the growth of massive social media platforms (like YouTube, Meta, and Spotify as well!) and how quickly society forms ideas of either false or true information. As in the picture, we see a boy stuck doom scrolling on his phone and how many promotional advertisements there are. Just like how Stella explains, these types of ADs lower the attention span of the average person while they assume others based on only a first impression of the image instead of looking through the information.
 
         `        
     ]
@@ -113,14 +113,14 @@ const nodes = [
 
     {
     id: "Sandy Ho picture",
-    title: ".   Sandy Ho picture",
+    title: ".   Sandy Ho | Pictures",
     note: [
         `<p align="center"><b>Affects of Different Countries:</b>
 
             <img src="sandy.jpg" style="width: 400px; border-radius: 12px; margin-bottom: 12px;">
-            <img src="lang.jpg" style="width: 405px; border-radius: 12px; margin-bottom: 12px;">
+            <img src="lange.jpg" style="width: 405px; border-radius: 12px; margin-bottom: 12px;">
         </p>
-        
+        The current images shown here may seem random, but the world flags and the languages show deep meaning towards how each culture and its languages or words are used to represent different meanings. Just like in Canfei to Canji, we see that the original meaning of Canfei in Chinese is useless, or if severe harm, it is a “piece of trash.” How language is created can easily lead people to assume something is the original meaning, such as we see, canji would relate to canfei. Language and cultures can play a huge role in affecting the perspectives of many people in different communities, leading to false or wrong interruptions of an idea! 
 
         `        
     ]
@@ -132,9 +132,11 @@ const nodes = [
     note: [
         `<h2>Howdy hey! Your Back!</h2>
         <h3>Reflection:</h3>
-        Overall, learning about this theme helped guide me to understand that the power of assumptions from only viewing the surface of identity can hugely affect society’s opinions. Both Young and Ho showed explicit content about disabled people, and they stated that people often think they understand disability, but they have never experienced or listened to a real disabled person’s life. I myself have experienced having a close relative with disability, and that is my younger brother. Though from this experience, I can confirm that both authors’ intentions are correct. When people with disabilities do normal tasks, it should not be a congratulatory accomplishment, but rather a basic human task. Although they require tools, they still manage to do daily tasks effortlessly in different ways (such as my younger brother using hearing aids). Looking towards the future, I am more confident when approaching people with disabilities through thinking, watching, and listening. 
+        Overall, learning about this theme <b>helped guide me</b> to understand that the power of assumptions from only viewing the surface of identity can hugely affect society’s opinions. Both Young and Ho showed explicit content about disabled people, and they stated that people often think they understand disability, but they have never experienced or listened to a disabled person’s life. I have a close relative with a disability, and that is my younger brother’s hearing. Through this experience, I can confirm that both authors’ intentions are correct. When people with disabilities do normal tasks, it should not be a congratulatory accomplishment, but rather a basic human task. Although they require tools, they still manage to do daily tasks effortlessly in diverse ways (such as my younger brother using hearing aids). Looking towards the future, I am more confident when approaching people with disabilities through thinking, watching, and listening.  
 
-        Finally, of all wisdom achieved, I learned that to understand someone or something, it is essential to find official sources or do research upon discovery, before believing. Nothing on social media is completely true, which is why no one should make assumptions at first sight.
+
+        Finally, of all wisdom achieved, I learned that to understand someone or something, it is essential to find official sources or do research upon discovery, before believing. Nothing on social media is completely true, which is why no one should make assumptions at first sight. 
+
 
         <i>Thats it! THANK YOU! 😀</i>
         
