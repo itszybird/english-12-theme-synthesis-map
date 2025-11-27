@@ -162,3 +162,35 @@ svg {
         height: 100vh;
     }
 }
+
+body {
+    overflow-y: scroll;
+}
+
+/* ===== CUSTOM SCROLLBAR (matches green pastel theme) ===== */
+
+/* for Chrome, Edge, Safari */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e4f8ea;             /* soft mint */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #76d693;             /* soft green to match your nodes (#5fcf7b-ish) */
+    border-radius: 10px;
+    border: 2px solid #e4f8ea;       /* creates a nice inset effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #45b86b;             /* slightly richer green on hover */
+}
+
+/* Firefox support */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #76d693 #e4f8ea;   /* thumb / track */
+}
