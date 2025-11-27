@@ -143,6 +143,13 @@ const nodes = [
         
         Nice meeting you Mr. McCullough!
         Hope to see you again! 👏
+
+        <h2>Citations</h2>
+        Young, Stella. “I’m Not Your Inspiration, Thank You Very Much.” TED, 9 June 2014, 
+        <p style="margin-left: 40px;">www.youtube.com/watch?v=8K9Gg164Bsw.</p>
+
+        Ho, Sandy. “Canfei to Canji | the Freedon of Being Loud.” 20 June 2000.
+        <p style="margin-left: 40px;">Story from the booklet.</p>
         `
     ]
     }
