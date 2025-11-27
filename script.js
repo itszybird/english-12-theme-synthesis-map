@@ -20,8 +20,10 @@ const nodes = [
         • <i>The story:</i> "Canfei to Canji: The Freedom of Being Loud" | Sandy Ho
 
         Please enjoy playing through the map!
-        
+
         <i>Move down to start!</i>
+        
+        <p align="center"><img src="demo.gif" style="width: 500px; border-radius: 12px; margin-bottom: 12px;"></p>
         `
     ]
     },
@@ -32,11 +34,11 @@ const nodes = [
     note: [
         `<b>The Problem of Misunderstanding information</b>
 
-        A <b>common</b> theme between Stellar Young's “I’m not your inspiration” and Sandy Ho’s “Canfei to Canji” is that people often misunderstand information, because society/social media makes assumptions about them instead of listening to or watching their real experiences. Through both the video and text, they expressively focus on disabled people being put into narrow roles to become so-called “inspirations” and completely ignore their individual identities. Young talks about how the world limits disabled people as “inspiration porn” and ignores the reality of their lives. Similarly, Ho's experiences of cultural stigma and silence create incorrect assumptions about disabled people’s worth. Combined, the video and the text highlight how powerful society’s labels or more present “social media,” can be in harming how others make decisions and the skills of critical thinking. From comparing the two, we can gain a better understanding of how assumptions shape the way disabled people are treated. Ultimately, both authors argue that to understand something is to listen to the official source rather than present social media.
+        A <b>common theme</b> between Stellar Young's <i>“I’m not your inspiration”</i> and Sandy Ho’s <i>“Canfei to Canji”</i> is that people often misunderstand information, because society/social media makes assumptions about them instead of listening to or watching their real experiences. Through both the video and text, they expressively focus on disabled people being put into narrow roles to become so-called “inspirations” and completely ignore their individual identities. Young talks about how the world limits disabled people as “inspiration porn” and ignores the reality of their lives. Similarly, Ho's experiences of cultural stigma and silence create incorrect assumptions about disabled people’s worth. Combined, the video and the text highlight how powerful society’s labels or more present “social media,” can be in harming how others make decisions and the skills of critical thinking. By comparing the two, we can gain a better understanding of how assumptions shape the way people with disabilities are treated. Ultimately, both authors argue that to understand something is to listen to the official source rather than present social media.
         
         <i>Move left or right!</i>
 
-        <i>Can't find Reflection?, try zooming out</i>
+        <i>Move down to find the reflection</i>
         <i>Hint: the End node BIG</i>
         `        
     ]
@@ -103,7 +105,7 @@ const nodes = [
             <img src="stella.png" style="width: 400px; border-radius: 12px; margin-bottom: 12px;">
             <img src="social.jpg" style="width: 400px; border-radius: 12px; margin-bottom: 12px;">
         </p>
-        The picture I chosen are citircal towards the Stella Young’s quotes because it displays the massive platform social media has grown (like youtube, meta, and spotify as well!) and how quickly society form ideas of either false or true information. As in the picture we see a boy stuck doom scrolling on his phone and how many promotives advertisements there are. Just like how Stella explains, people assume others based on only first sight of image instead of looking through the information.
+        The picture I chose is critical towards Stella Young’s quotes because it displays the massive platforms social media has grown (like YouTube, Meta, and Spotify as well!) and how quickly society forms ideas of either false or true information. As in the picture, we see a boy stuck doom scrolling on his phone and how many promotional advertisements there are. Just like how Stella explains, these types of ADs lower the attention span of the average person while they assume others based on only a first impression of the image instead of looking through the information.
 
         `        
     ]
@@ -113,9 +115,10 @@ const nodes = [
     id: "Sandy Ho picture",
     title: ".   Sandy Ho picture",
     note: [
-        `<p align="center"><b>The diversity of countries:</b>
+        `<p align="center"><b>Affects of Different Countries:</b>
 
             <img src="sandy.jpg" style="width: 400px; border-radius: 12px; margin-bottom: 12px;">
+            <img src="lang.jpg" style="width: 405px; border-radius: 12px; margin-bottom: 12px;">
         </p>
         
 
@@ -127,10 +130,12 @@ const nodes = [
     id: "End",
     title: ".   End",
     note: [
-        `<h2>Howdy hey! You found me!</h2>
+        `<h2>Howdy hey! Your Back!</h2>
         <h3>Reflection:</h3>
-        Overall, learning about this theme helped guide me to understand that the power of assumptions from only viewing the surface of identity can hugely affect society’s opinions. Both Young and Ho showed explicit content about disabled people, and they stated that people often think they understand disability without ever experiencing it or listening to someone with a disability. I myself have experienced being disabled, but in the form of having a younger brother. Though from this experience I can confirm that both authors are correct. When people with disabilities do normal tasks, it should not be a congratulatory accomplishment, but rather a basic human task. Although they require tools, they still manage to do daily tasks effortlessly in different ways (such as my younger brother using hearing aids). Looking towards the future, I am more confident when approaching people with disabilities through thinking, watching, and listening. Finally, of all wisdom achieved, I learned that to understand someone or something, it is essential to find official sources or do research upon discovery, before believing. Nothing on social media is completely true, which is why no one should make assumptions at first sight.
-        
+        Overall, learning about this theme helped guide me to understand that the power of assumptions from only viewing the surface of identity can hugely affect society’s opinions. Both Young and Ho showed explicit content about disabled people, and they stated that people often think they understand disability, but they have never experienced or listened to a real disabled person’s life. I myself have experienced having a close relative with disability, and that is my younger brother. Though from this experience, I can confirm that both authors’ intentions are correct. When people with disabilities do normal tasks, it should not be a congratulatory accomplishment, but rather a basic human task. Although they require tools, they still manage to do daily tasks effortlessly in different ways (such as my younger brother using hearing aids). Looking towards the future, I am more confident when approaching people with disabilities through thinking, watching, and listening. 
+
+        Finally, of all wisdom achieved, I learned that to understand someone or something, it is essential to find official sources or do research upon discovery, before believing. Nothing on social media is completely true, which is why no one should make assumptions at first sight.
+
         <i>Thats it! THANK YOU! 😀</i>
         
         Nice meeting you Mr. McCullough!
@@ -157,9 +162,9 @@ const links = [
 
 /* ===== GRAPH SETUP ===== */
 const svg = d3.select("#graph");
-const width = window.innerWidth * 0.1;
-const height = window.innerHeight * 0.1;
-svg.attr("viewBox", [-30, -230, width, height]);
+const width = window.innerWidth * 0.3;
+const height = window.innerHeight * 0.3;
+svg.attr("viewBox", [-70, -150, width, height]);
 
 
 const linkGroup = svg.append("g").attr("class", "links");
@@ -195,7 +200,7 @@ const label = labelGroup
     .text(d => d.title);
 
 const simulation = d3.forceSimulation(nodes)
-    .force("link", d3.forceLink(links).id(d => d.id).distance(400))
+    .force("link", d3.forceLink(links).id(d => d.id).distance(240))
     .force("charge", d3.forceManyBody().strength(-2000))
     .force("center", d3.forceCenter(width / 2, height / 2))
     .force("collide", d3.forceCollide())

@@ -18,7 +18,7 @@ body {
 .app {
     display: flex;
     width: 100%;
-    max-width: 1400px;
+    max-width: 1920px;
     background: #fafff7;
     border-radius: 18px;
     box-shadow: 0 20px 60px rgba(0, 60, 20, 0.15);
@@ -29,7 +29,7 @@ body {
 
 /* LEFT: graph */
 .graph-panel {
-    flex: 1.4;
+    flex: 10;
     position: relative;
     background: radial-gradient(circle at center, #c9f4d7 0, #ddfce6 50%, #f7fffa 100%);
 }
@@ -83,7 +83,7 @@ svg {
 
 /* RIGHT: note panel */
 .note-panel {
-    flex: 1;
+    flex: 6;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -171,7 +171,7 @@ body {
 
 /* for Chrome, Edge, Safari */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 50px;
 }
 
 ::-webkit-scrollbar-track {
@@ -191,6 +191,6 @@ body {
 
 /* Firefox support */
 * {
-    scrollbar-width: thin;
+    scrollbar-width: auto;
     scrollbar-color: #76d693 #e4f8ea;   /* thumb / track */
 }
