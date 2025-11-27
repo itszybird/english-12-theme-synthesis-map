@@ -7,6 +7,7 @@ const nodes = [
         `<h2>Howdy hey!</h2>
         This is a graphical website I coded to display the synthesis, because I couldn’t think of any other way to use my time IDK, ok but like it took me almost 6 hours to program this from ground up using Html, CSS, and JavaScript.
         I used Canva too many times so I decided to code my own graphical website for my synthesis project.
+        I also decided to use this method so it can capture the essence of a Brain Map and the connections between all Quotes, Pictures, and Ideas!
 
         <b>To navigate this site, it's simple:</b>
         • All you need to do is follow the lines connected in the map.
